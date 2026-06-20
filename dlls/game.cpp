@@ -603,9 +603,10 @@ static bool SV_InitServer()
 
 	if (UTIL_IsValveGameDirectory())
 	{
-		g_engfuncs.pfnServerPrint("This mod has detected that it is being run from a Valve game directory which is not supported\n"
-			"Run this mod from its intended location\n\nThe game will now shut down\n");
-		return false;
+		// IT HAPPENED AGAIN, WHY THE HELL DID YOU CODE THIS!?!?
+		/*g_engfuncs.pfnServerPrint("This mod has detected that it is being run from a Valve game directory which is not supported\n"
+			"Run this mod from its intended location\n\nThe game will now shut down\n");*/
+		return true;
 	}
 
 	return true;

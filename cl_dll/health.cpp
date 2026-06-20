@@ -226,6 +226,7 @@ bool CHudHealth::Draw(float flTime)
 		SPR_DrawAdditive(0, x, y, &gHUD.GetSpriteRect(m_HUD_cross));
 
 		x = CrossWidth + HealthWidth / 2;
+		y += (int)(gHUD.m_iFontHeight * 0.2f);
 
 		//Reserve space for 3 digits by default, but allow it to expand
 		x += gHUD.GetHudNumberWidth(m_iHealth, 3, DHN_DRAWZERO);
