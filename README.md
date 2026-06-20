@@ -1,4 +1,5 @@
 # About
+This is the source code to a modified version of Opposing Force that introduces HUD scaling from the 25th anniversary update of Half-Life, based on the Half-Life Updated SDK. If you want to download this mod yourself, click the URL at the top right of the page.
 
 [Half-Life Updated](https://github.com/twhl-community/halflife-updated), [Opposing Force Updated](https://github.com/twhl-community/halflife-op4-updated) and [Blue Shift Updated](https://github.com/twhl-community/halflife-bs-updated) are repositories that provide updated versions of the Half-Life SDK, targeted to the 3 Half-Life 1 PC games officially available.
 
